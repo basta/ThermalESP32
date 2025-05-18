@@ -39,9 +39,8 @@ These dependencies are managed through the package's `Project.toml` file.
 
 1.  **Clone the Repository (if not registered in Julia's General registry):**
     ```bash
-    git clone <your-git-repository-url>/ThermalESP32.jl.git
+    git clone github.com/basta/ThermalESP32
     ```
-    (Replace `<your-git-repository-url>` with the actual URL of the repository).
 
 2.  **Install the Package:**
     Open the Julia REPL, enter the Pkg mode by pressing `]`, and then execute:

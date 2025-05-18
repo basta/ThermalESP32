@@ -1,0 +1,103 @@
+# Julia Pkg specific files and directories
+/Manifest.toml
+*.ji
+*.so
+*.dylib
+*.dll
+*.o
+*.a
+*.orig
+
+# Compiled CSL files (Common Lisp)
+*.fasl
+
+# Build artifacts
+/build/
+/deps/build/
+/deps/usr/
+/deps/src/
+/deps/downloads/
+*.tar.gz # Often created by Pkg for dependencies
+
+# Local project environments (if you create them within the project directory)
+# It's generally better to keep environments outside the main project repo
+# or manage them carefully if they are included.
+# If you use local environments like ".env" or "MyLocalEnv/", add them:
+# /.env/
+# /MyLocalEnv/
+
+# Julia REPL history
+.julia_history
+.julia_history.*
+
+# Log files
+*.log
+logs/
+
+# Coverage reports
+coverage/
+lcov.info
+*.cov
+*.info
+
+# Documentation build artifacts (e.g., from Documenter.jl)
+/docs/build/
+/docs/site/
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Data files (if large or generated, consider adding specific patterns)
+# Example: if you have large .bin files in a specific data directory
+# /data/*.bin
+# /thermal_recordings/*.bin
+# /thermal_recordings_celsius/*.bin
+# (Uncomment and adjust the above lines if you want to ignore recorded data by default)
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+Desktop.ini # Windows
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python specific (if you use Python interop and generate these)
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment variables file (commonly used for secrets)
+.env
+
+# Julia Language Server specific
+.julia-vscode/
+
+# Large files managed by Git LFS (if you use it)
+# *.dat
+# *.hdf5
+
+# Specific to your project if needed:
+# For example, if you have specific output directories for experiments
+# /my_experiment_outputs/
