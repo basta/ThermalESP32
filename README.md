@@ -184,23 +184,11 @@ The `examples/` directory contains more comprehensive scripts, including:
 * `playback_recorded_data.jl`: Demonstrates loading and replaying previously saved thermal data (both raw and Celsius).
 * `control_panel_gui.jl`: A more complex example showcasing a GUI for thermal visualization, sending control commands (e.g., PID parameters) to an ESP32 via serial port, and displaying feedback from the device.
 
-These examples serve as practical guides for integrating `ThermalESP32.jl` into larger applications.
-
-## 9. Potential Applications in Research
-
-This package can be instrumental in research scenarios requiring thermal measurements, such as:
-* Monitoring temperature distributions in experimental setups (e.g., heat transfer in enclosed systems, cooling effectiveness studies).
-* Providing thermal feedback for control systems.
-* Non-invasive temperature sensing in robotics and automation.
-* Time-resolved thermal imaging for dynamic processes.
-
-For theses involving thermal analysis, such as studies on magnetohydrodynamic control of flows with thermal gradients or general heat transfer experiments, `ThermalESP32.jl` provides the foundational tools for acquiring essential temperature field data.
-
-## 10. License
+## 9. License
 
 This project is licensed under the [Specify Your Chosen License Here, e.g., MIT License]. Please see the `LICENSE` file for full details.
 
-## 11. Contact
+## 1é. Contact
 
-Ondřej Baštař - [Your Email Address, if you wish to include it]
+Ondřej Baštař - jsembasta@gmail.com
 Czech Technical University in Prague
